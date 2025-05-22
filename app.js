@@ -19,7 +19,7 @@ function sortear(){
     return;
   }
     if (quantidade > (ate - de + 1)){
-        alert('Campo "Quantidade" deve ser maior que intervalo dos campos "De e Até". Verifique!');
+        alert('Campo "Quantidade" deve ser maior que intervalo dos campos "Do número e Até o número". Verifique!');
     document.getElementById('quantidade').value = '';
     document.getElementById('de').value = '';
     document.getElementById('ate').value = '';
